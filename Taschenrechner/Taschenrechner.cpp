@@ -15,7 +15,7 @@ int main()
 	cout << "Bitte geben sie zweite Zahl ein: " << endl;
 	cin >> zahl2;
 
-	cout << "Rechenzeichen eigeben: " << endl;
+	cout << "Rechenzeichen eingeben: " << endl;
 	cin >> rechenzeichen;
 
 	cout << "Zahl1: " << zahl1 << endl;
