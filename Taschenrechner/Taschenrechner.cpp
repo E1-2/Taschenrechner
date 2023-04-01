@@ -10,12 +10,12 @@ int main()
 	char rechenzeichen = '_';
 
 	// Zubereitung (Algorythmus)
-	cout << "Bitte geben sie erste Zahl ein: " << endl;
+	cout << "Bitte geben Sie erste Zahl ein: " << endl;
 	cin >> zahl1;
-	cout << "Bitte geben sie zweite Zahl ein: " << endl;
+	cout << "Bitte geben Sie zweite Zahl ein: " << endl;
 	cin >> zahl2;
 
-	cout << "Rechenzeichen eigeben: " << endl;
+	cout << "Rechenzeichen eingeben: " << endl;
 	cin >> rechenzeichen;
 
 	cout << "Zahl1: " << zahl1 << endl;
