@@ -24,13 +24,13 @@ int main()
 
 	switch (rechenzeichen)
 	{
-	case '+':  
+	case '+':
 		erg = zahl1 + zahl2;
 		cout << "Ergebnis: " << erg << endl;
 		break;
-		
 
-	case '-': 
+
+	case '-':
 		erg = zahl1 - zahl2;
 		cout << "Ergebnis: " << erg << endl;
 		break;
@@ -41,9 +41,16 @@ int main()
 		break;
 
 	case '/':
-		erg = zahl1 / zahl2;
-		cout << "Ergebnis: " << erg << endl;
-		break;
+		if (zahl2 == 0)
+		{
+			cout << "Durch Null teilen nur die ..." << endl;
+			break;
+		}
+		else {
+			erg = zahl1 / zahl2;
+			cout << "Ergebnis: " << erg << endl;
+			break;
+		}
 
 	default:
 		cout << "Du bist zu ..." << endl;
@@ -51,7 +58,7 @@ int main()
 
 	}
 	cout << "Ende" << endl;
- 
-	
+
+
 	return 0;
 }
